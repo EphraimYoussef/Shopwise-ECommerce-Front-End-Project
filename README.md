@@ -1,4 +1,4 @@
-# Frontend E-Commerce Project
+# Shopwise E-Commerce Frontend Project
 
 ## Overview
 Shopwise is a modern e-commerce web application built with **Next.js**, designed for a seamless and responsive shopping experience. It leverages **server-side rendering (SSR)** to enhance performance, ensuring fast load times and smooth navigation. Additionally, it includes **SEO optimization** and **meta data management** to improve search engine visibility.
