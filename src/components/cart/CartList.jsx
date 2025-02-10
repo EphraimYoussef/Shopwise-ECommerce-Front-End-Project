@@ -42,7 +42,7 @@ export default function CartList() {
               height={100}
               className="rounded-md mb-4 sm:mb-0 sm:mr-6"
             />
-            <div className="flex-grow space-y-2">
+            <div className="flex-grow w-full space-y-2">
               <h2 className="text-lg font-semibold">{product.title}</h2>
               <p className="text-gray-600">Quantity: {product.quantity}</p>
               <p className="text-gray-600">Price: ${product.price.toFixed(2)}</p>
@@ -62,7 +62,10 @@ export default function CartList() {
       </div>
       <div className="mt-8 flex flex-col sm:flex-row justify-between items-center">
         <p className="text-xl font-bold mb-4 sm:mb-0">Total: ${total.toFixed(2)}</p>
-        <Button variant="destructive" onClick={() => dispatch(clearCart())}>Clear Cart</Button>
+        <div>
+          <Button className="mr-4">Checkout</Button>
+          <Button variant="destructive" onClick={() => dispatch(clearCart())}>Clear Cart</Button>
+        </div>
       </div>
     </div>
   )
