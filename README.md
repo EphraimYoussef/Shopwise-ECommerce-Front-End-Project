@@ -64,3 +64,5 @@ Shopwise is a modern e-commerce web application built with **Next.js**, designed
 ## Videos
 ### Desktop
 https://github.com/user-attachments/assets/2d8cbf1f-7ced-4963-b6e1-7b8df21fb3e0
+### Phone
+https://github.com/user-attachments/assets/0b0b5cf0-df02-4511-aa2b-613440e29787
